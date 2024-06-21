@@ -27,10 +27,7 @@ from AnonXMusic.utils.database import (
 )
 from AnonXMusic.utils.decorators.admins import ActualAdminCB
 from AnonXMusic.utils.decorators.language import language, languageCB
-from AnonXMusic.utils.inline.settings import auth_users_markup,
-    playmode_users_markup,
-    setting_markup,
-    vote_mode_markup
+
 from AnonXMusic.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
