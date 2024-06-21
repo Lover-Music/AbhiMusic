@@ -3,7 +3,7 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from AnonXMusic import app
-from config import SUPPORT_GROUP
+
 
 
 def help_pannel(_, START: Union[bool, int] = None):
